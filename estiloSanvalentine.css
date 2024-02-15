@@ -1,0 +1,132 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+/**Celular**/
+@media (min-widht: 767px) {
+
+    .computadora {
+
+        display: none;
+    }
+
+    .tablet {
+
+        display: none;
+    }
+}
+/**Tablet**/
+@media (min-widht: 768px) and (max-width: 990px) {
+
+    .computadora {
+
+        display: none;
+
+    }
+
+    .celular {
+
+        display: none;
+    }
+
+
+}
+/**Computadora**/
+@media (min-widht: 991px) {
+
+
+    .celular {
+
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+
+    }
+
+}
+
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.50)), url(dos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 2650px;
+}
+
+body {
+
+    font-family: Edwardian Script ITC;
+    margin: 0;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+
+    display: flex;
+}
+
+.logo img {
+    height: 75px;
+    margin-right: 10px;
+
+}
+
+nav a {
+
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+nav a:hover {
+
+    color: red;
+
+}
+
+.videos-a-poner {
+    color: aliceblue;
+    height: 190;
+
+}
+
+p,
+b {
+    font-family: Edwardian Script ITC;
+    font-size: 30px;
+
+}
+
+.final {
+
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: aliceblue;
+    font-size: smaller;
+
+}
+
+.uno {
+    color: aliceblue;
+}
